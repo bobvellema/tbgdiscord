@@ -111,4 +111,4 @@ bot.on("guildMemberAdd", member => {
    
 
 
-bot.login(process.env.token);
+bot.login(process.emv.token);
