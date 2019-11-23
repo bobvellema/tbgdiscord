@@ -30,3 +30,7 @@ module.exports.help.name = {
         message.channel.send(embed);
     }
 }
+
+module.exports.help = {
+    name: "love"
+}
