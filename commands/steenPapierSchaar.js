@@ -25,10 +25,10 @@ module.exports.run = async(bot, message, args) => {
 
         if(result == "schaar"){
 
-            message.channel.send(`Ik heb ${result} :moyai:, jij wint.`)
+            message.channel.send(`Ik heb ${result} :scissors:, jij wint.`)
 
         }else if(result == "steen"){
-            message.channel.send(`Ik heb ${result} :scissors:, ik win.`);
+            message.channel.send(`Ik heb ${result} :moyai:, ik win.`);
         }else if(result == "papier"){
             message.channel.send(`Ik heb ${result} :notepad_spiral:, het is gelijkspel.`)
         }
@@ -41,9 +41,9 @@ module.exports.run = async(bot, message, args) => {
             message.channel.send(`Ik heb ${result} :moyai:, Ik win.`)
 
         }else if(result == "papier"){
-            message.channel.send(`Ik heb ${result} :scissors:, jij wint.`);
+            message.channel.send(`Ik heb ${result} :notepad_spiral:, jij wint.`);
         }else if(result == "schaar"){
-            message.channel.send(`Ik heb ${result} :moyai:, het is gelijkspel.`)
+            message.channel.send(`Ik heb ${result} :scissors:, het is gelijkspel.`)
         }
 
     }
