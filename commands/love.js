@@ -3,14 +3,7 @@ const discord = require("discord.js");
 module.exports.run = async(bot, message, args) => {
 
     run: async (client, message, args) => {
-        // Get a member from mention, id, or username
-        let person = getMember(message, args[0]);
 
-        // If no person is found
-        // It's going to default to the author
-        // And we don't want to love ourself in this command
-        // So we filter out our ID from the server members
-        // And get a random person from that collection
         if (!person || message.author.id === person.id) {
             person = message.guild.members
                 .filter(m => m.id !== message.author.id)
@@ -38,6 +31,7 @@ module.exports.run = async(bot, message, args) => {
 module.exports.help = {
     name: "love"
 }
+
 
 
    
