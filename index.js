@@ -34,7 +34,7 @@ bot.on("ready", async () => {
 
     console.log(`${bot.user.username} is online!`);
 
-    bot.user.setActivity("-help", { type: "WATCHING" });
+    bot.user.setActivity("kd!help |play.sleadkd.nl || 1.8.9 ", { type: "WATCHING" });
 })
 bot.on("guildMemberAdd", member => {
 
