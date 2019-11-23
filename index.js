@@ -45,7 +45,7 @@ bot.on("guildMemberAdd", member => {
     
     member.addRole(role);
     
-    const channel = member.guild.channels.find("name", "***"); // <== channel naam je kan hem veranderen naar je welkomskanaal
+    const channel = member.guild.channels.find("algemeen", "***"); // <== channel naam je kan hem veranderen naar je welkomskanaal
     
     if(!channel) return;
     
