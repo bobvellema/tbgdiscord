@@ -1,5 +1,5 @@
 // Importeren van ms voor het omvormen van de tijd naar milliseconden.
-const ms = require("ms");
+const ms = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
 
