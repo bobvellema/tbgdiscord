@@ -43,7 +43,11 @@ module.exports.run = async (bot, message, args) => {
  
             // Zet perms voor iedereen
             settedParent.overwritePermissions(message.guild.roles.find('name', "@everyone"), { "READ_MESSAGES": false });
+<<<<<<< HEAD
            
+=======
+            settedParent.overwritePermissions(message.guild.roles.find('name', "@[🎫] Ticketteam"), { "READ_MESSAGES": true });
+>>>>>>> c22e159d04b11016b25b54e1aa36a8b8f81dbb55
             // Zet perms voor de gebruiker die ticket heeft aangemaakt.
             settedParent.overwritePermissions(message.author, {
  
